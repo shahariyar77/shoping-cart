@@ -1,0 +1,170 @@
+/* mediam device */
+@media (max-width: 768px){
+    .left-hero p {
+        padding: 6px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .left-hero h2 {
+        font-size: 60px;
+    }
+    .left-hero span {
+        font-size: 30px;
+        
+    }
+    .hero-img {
+        width: 370px;
+    }
+    .hero-tag {
+        height: 120px;
+        width: 120px;
+    }
+    .hero-tag h4 {
+        font-size: 40px;
+    }
+    .hero-tag h5 {
+        font-size: 20px;
+    }
+    .single-tst h2 {
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+    .single-tst p {
+        font-size: 12px;
+    }
+    .table-tittle {
+        margin-bottom: 50px;
+    }
+    img.form-img2 {
+        top: 169px;
+    }
+    img.form-img3 {
+        width: 156px;
+        bottom: -63px;
+    }
+    .footer-bg {
+        padding-top: 50px;
+       
+    }
+    
+}
+/* mobile device */
+@media only screen and (min-device-width:320px) and (max-device-width:767px){
+    .header-bar{
+        display: block;
+        }
+
+.offcanvas-manu{
+    display: block;
+}
+.right-icon {
+    display: none;
+  }
+  .main-manu {
+    display: none;
+  }
+  .main-hero-section {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.left-hero {
+	margin-top: 50px;
+}
+.hero-img {
+	height: 420px;
+	width:340px;
+    margin-top: -90px;
+    margin-right: 30px;
+}
+.hero-tag h4 {
+	font-size: 30px;
+}
+.hero-tag {
+	height: 90px;
+	width: 90px;
+}
+.hero-tag h5 {
+	font-size: 16px;
+	margin-top: 4px;
+	margin-left: 6px;
+}
+.hero-tag-wrap {
+	padding: 6px 7px;
+}
+.left-gallery {
+	height: 150px;
+    margin-bottom: 30px;
+}
+.gallery-btn {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.hero-gallery h4 {
+	font-size: 33px;
+}
+.section-tittle h2 {
+	font-size: 27px;
+}
+.section-tittle p {
+	font-size: 11px;
+}
+.burger-img {
+	margin-bottom: 0;
+}
+.burger-img.middle-img img {
+	margin-bottom: 20px;
+}
+.single-burger-item p {
+	margin-bottom: 15px;
+}
+.single-burger-item p {
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+a.baton.red-btn {
+	font-size: 12px;
+}
+.single-burger-item {
+	margin-bottom: 50px;
+}
+.about-burger {
+	padding-bottom: 0;
+}
+.burger-right-tst img {
+	margin-bottom: 50px;
+}
+.form-img img, .form-img2, .form-img3 {
+	display: none;
+}
+.table-tittle span {
+	font-size: 15px;
+}
+.table-tittle h2 {
+	font-size: 24px;
+}
+.table-tittle {
+	margin-bottom: 30px;
+}
+.table-area {
+	padding: 20px 0;
+}
+.right-footer {
+	width: 100%;
+    margin-top: 50px;
+}
+.footer-socila-link {
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+.footer-area {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+}

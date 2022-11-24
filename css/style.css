@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#ffc045;
+    --second-color:#bf2222;
+    --black:#0c0b0b;
+    --white:#fff;
+    --body-text-color:#3d2514;
+    
+    
+}
+body{
+color: var(--body-text-color);
+}
+.wrapper {
+	overflow: hidden;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+}
+.flex{
+    display: flex;
+}
+.js-center{
+    justify-content: center;
+}
+.al-center{
+    align-items: center;
+}
+
+.background-img{
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+/* offcanvas manu */
+.header-bar{
+display: none;
+cursor: pointer;
+}
+.header-bar i {
+	font-size: 25px;
+}
+.offcanvas-manu {
+	height:190px;
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	background:var(--second-color);
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+	margin-left: -900px;
+    transition: .3s;
+    display: none;
+}
+.offcanvas-manu ul {
+    padding: 0;
+  }
+  .offcanvas-manu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .offcanvas-manu li a {
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: var(--white);
+    transition: .3s;
+  }
+  .offcanvas-manu li a:hover {
+	color: var(--main-color);
+}
+  .manu-close {
+	position: absolute;
+	right: 20px;
+	top: 6px;
+	color: var(--white);
+	font-size: 25px;
+	cursor: pointer;
+}
+  .offcanvas-manu.\.active{
+    margin-left: 0;
+}
+.offcanvas-overylay.\.active{
+    z-index: 98;
+    opacity: .6;
+}
+.offcanvas-overylay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	z-index:-1;
+	opacity:0;
+    transition: .3s;
+}
+/* header area */
+.all-card-item img {
+    width: 20%;
+}
+
+/* card area */
+.full-card-area {
+    background: gainsboro;
+    padding: 80px 0;
+}
+
+.full-item {
+    background: #f1f1f1;
+    align-items: center;
+    padding: 0 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.all-card-item {
+    align-items: center;
+}
+
+.all-card-item p {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.all-card-item input {
+    width: 40px;
+    border: none;
+    background: no-repeat;
+}
+
+.all-card-item button {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.all-card-item h3 {
+    font-size: 19px;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+
+.all-card-item span i {
+    font-size: 30px;
+    color: red;
+}
+.item-2 {
+    margin-top: 30px;
+}
+.cart-item {
+    background: #f1f1f1;
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+button.check-out {
+    background: green;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    margin-top: 30px;
+}
+.status {
+    text-align: center;
+}
